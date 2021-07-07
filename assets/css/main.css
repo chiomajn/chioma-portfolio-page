@@ -2731,10 +2731,10 @@ input, select, textarea {
 		}
 
 		.tiles article {
-			-moz-align-items: center;
-			-webkit-align-items: center;
-			-ms-align-items: center;
-			align-items: center;
+			-moz-align-items: normal;
+			-webkit-align-items: normal;
+			-ms-align-items: normal;
+			align-items: normal;
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -2748,9 +2748,14 @@ input, select, textarea {
 			background-repeat: no-repeat;
 			background-size: cover;
 			cursor: default;
-			height: 40vh;
+			
+			/* height: 40vh;
 			max-height: 40em;
-			min-height: 23em;
+			min-height: 23em; */
+			height: 80vh;
+			max-height: auto;
+			min-height: auto;
+
 			overflow: hidden;
 			position: relative;
 			width: 40%;
