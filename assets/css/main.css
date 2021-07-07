@@ -2752,7 +2752,9 @@ input, select, textarea {
 			/* height: 40vh;
 			max-height: 40em;
 			min-height: 23em; */
-			height: 80vh;
+
+			/* height: 80vh; */
+			height: 40em;
 			max-height: auto;
 			min-height: auto;
 
